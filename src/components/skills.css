@@ -1,0 +1,56 @@
+article.habilidade{
+  background-color: var(--cor-fundo);
+  color: var(--cor-fonts);
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-top: 5px;
+  border-radius: 10px;
+}
+.habilidade .titulo .brain{
+    font-size: 20px;
+}
+.habilidade .titulo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: var(--cor-links);
+}
+section.skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.skills .porcent{
+    color: var(--cor-links);
+}
+div .corfundo{
+    background-color: var(--barra-fundo);
+    min-height: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 6px;
+    margin-bottom: 35px;
+}
+div .corfrente{
+    background-color: var(--barra-frente);
+    height: 10px;
+    border-radius: 6px;
+    margin-right: 41px;
+}
+@media screen and (min-width: 768px) {
+    .principal-block{
+        display: flex;
+        justify-content: center;
+    }
+    .block-skill{
+        flex: 1
+    }
+}
+

@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+  --cor-header1: rgb(30, 30, 131) 15%;
+  --cor-header2: rgb(173, 37, 37);
+  --cor-fundo: rgba(165, 42, 42, 0.308);
+  --cor-circulo: rgb(134, 31, 31);
+  --cor-links: rgb(138, 12, 12);
+  --cor-fonts: black;
+  --barra-frente: rgba(202, 38, 38, 0.774);
+  --barra-fundo: white;
+  --box-fundo: rgba(228, 12, 12, 0.562);
+  --form-cor: rgba(228, 12, 12, 0.562);
+}
+.dark {
+    --cor-header1: #020617 15%;
+    --cor-header2: #24104f;
+    --cor-fundo: #111827;
+    --cor-circulo: #5b21b6;
+    --cor-links: #c4b5fd;
+    --cor-fonts: #ffffff;
+    --barra-frente: #6d28d9;
+    --barra-fundo: #374151;
+    --box-fundo: #1f2937;
+    --form-cor: #24104f;
+     background-color: black;
+     color: white;
+}
+div#root{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 900px){
+  main{
+    display: grid;
+    grid-template-columns: 350px 1fr;
+  }
+  article.perfil{
+    grid-area: 1 / 1 / 5 / 2;
+    background-color: var(--cor-fundo);
+    margin-right: 0px;
+    padding-bottom: 121px;
+    height: fit-content;
+    position: sticky;
+    top: 65px;
+}
+article.perfil .fotoperfil{
+    background-image: url('/pessoa.jpg');
+    width: 250px;
+    height: 250px;
+}
+article.perfil p{
+    line-height: 25px;
+    font-size: 18px;
+}
+  article.apresenta{
+    grid-area: 1 / 2 / 2 / 3;
+}
+section.video{
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    aspect-ratio: 16/9;
+    margin: auto;
+}
+article.habilidade{
+  grid-area: 2 / 2 / 3 / 3;
+}
+article.formaçao{
+  grid-area: 3 / 2 / 4 / 3;
+}
+aside.project{
+  grid-area: 4 / 2 / 5 / 3;
+}
+}
