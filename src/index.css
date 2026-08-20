@@ -5,9 +5,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 :root{
-  --cor-header1: rgb(30, 30, 131) 15%;
-  --cor-header2: rgb(173, 37, 37);
-  --cor-fundo: rgba(165, 42, 42, 0.308);
+  --cor-header: linear-gradient(to left,  rgb(25, 19, 110) 20%,  rgb(180, 14, 14));
+  --cor-header1: rgb(25, 19, 110) 20%;
+  --cor-header2: rgb(180, 14, 14);
+  --cor-fundo: rgba(165, 42, 42, 0.37);
   --cor-circulo: rgb(134, 31, 31);
   --cor-links: rgb(138, 12, 12);
   --cor-fonts: black;
@@ -15,8 +16,11 @@
   --barra-fundo: white;
   --box-fundo: rgba(228, 12, 12, 0.562);
   --form-cor: rgba(228, 12, 12, 0.562);
+  --cor-hove:  rgba(255, 255, 255, 0.322);
+  --cor-linknav: rgba(138, 12, 12, 0.5);
 }
 .dark {
+    --cor-header: linear-gradient(to bottom, #020617 15%, #24104f);
     --cor-header1: #020617 15%;
     --cor-header2: #24104f;
     --cor-fundo: #111827;
@@ -27,6 +31,8 @@
     --barra-fundo: #374151;
     --box-fundo: #1f2937;
     --form-cor: #24104f;
+    --cor-hove:  #c3b5fd6e;
+    --cor-linknav: #c3b5fd7c;
      background-color: black;
      color: white;
 }

@@ -45,6 +45,6 @@ nav a{
     color: var(--cor-links);
 }
 nav a:hover{
-    color: rgba(138, 12, 12, 0.541);
+    color: var(--cor-linknav);
     transition: color 0.5s;
 }
