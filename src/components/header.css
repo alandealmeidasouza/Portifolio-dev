@@ -1,5 +1,5 @@
 header{
-    background-image: linear-gradient(to left, var(--cor-header1), var(--cor-header2));
+    background: var(--cor-header);
     position: sticky;
     top: 0;
     left: 0;
@@ -19,6 +19,7 @@ nav .icone{
    cursor: pointer;
 }
 nav .icone:hover{
-    background-color: rgba(255, 255, 255, 0.233);
+    background-color: var(--cor-hove);
+    
     transition: background-color 0.5s;
 }

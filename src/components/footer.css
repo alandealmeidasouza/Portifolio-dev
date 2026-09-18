@@ -1,5 +1,5 @@
 footer{
-    background-image: linear-gradient(to left, var(--cor-header1), var(--cor-header2));
+    background: var(--cor-header);
     text-align: center;
     color: white;
     font-weight: bolder;
