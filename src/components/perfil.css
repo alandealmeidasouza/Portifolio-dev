@@ -9,7 +9,7 @@ article.perfil{
 }
 
 article.perfil .fotoperfil{
-    background-image: url('pessoa.jpg');
+    background-image: url('/Portifolio-dev/pessoa.jpg');
     width: 250px;
     height: 250px;
     margin: auto;

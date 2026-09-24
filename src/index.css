@@ -62,7 +62,6 @@ main{
     top: 68px;
 }
 article.perfil .fotoperfil{
-    background-image: url('/pessoa.jpg');
     width: 250px;
     height: 250px;
 }
